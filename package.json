@@ -9,14 +9,15 @@
     "react-scripts": "3.0.1"
   },
   "main": "./public/electron.js",
-  "homepage": "./",
+  "homepage": "https://dagg-1.github.io/reactfox",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "electron": "electron .",
-    "build-electron": "yarn build && electron-packager . ReactFox --platform=win32 --arch=x64 --asar --icon=public/favicon.ico --overwrite"
+    "build-electron": "yarn build && electron-packager . ReactFox --platform=win32 --arch=x64 --asar --icon=public/favicon.ico --overwrite",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +36,7 @@
   },
   "devDependencies": {
     "electron": "^5.0.8",
-    "electron-packager": "^14.0.3"
+    "electron-packager": "^14.0.3",
+    "gh-pages": "^2.0.1"
   }
 }
