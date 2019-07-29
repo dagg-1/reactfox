@@ -1,7 +1,8 @@
 # ReactFox v2
-Second incarnation of the RandomFox Client
 
 ## This application requires the **yarn** package manager 
+
+## Hosted at https://dagg-1.github.io/reactfox/
 
 ## Building
 
